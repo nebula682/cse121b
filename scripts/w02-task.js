@@ -3,7 +3,7 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-const fullName =" MALCOLM NIGEL NKOMO";
+const fullName =" Malcolm Nigel Nkomo";
 const currentYear = new Date().getFullYear();
 const profilePicture = "images/Mal.jpg";
 
@@ -31,11 +31,18 @@ imageElement.setAttribute ("alt",`This is ${fullName}, an online student at BYU 
 
 
 /* Step 5 - Array */
-let favFoods = ["Pizza", "Ice Cream", "Cake", "Milkshake", " Shawarma", "Sadza", "Ribs"," Rice and Chicken","Steak", "Burgers"];
+let favFoods = ["Pizza", "Ice Cream", "Cake", "Milkshake", "Shawarma", "Sadza", "Ribs",  "Chicken", "Steak", "Burgers"];
 document.getElementById("food").innerHTML = favFoods;
 let newFood ="Mangoes"
 favFoods.push(newFood);
 foodElement.innerHTML += `<br>${favFoods}`;
+let newFoods = "Pizza"
+favFoods.shift(newFoods);
+foodElement.innerHTML += `<br>${favFoods}`;
+let myFoods = "Mangoes"
+favFoods.pop(myFoods);
+foodElement.innerHTML += `<br>${favFoods}`;
+
 
 
 
