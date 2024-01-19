@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 const fullName =" Malcolm Nigel Nkomo";
 const currentYear = new Date().getFullYear();
-const profilePicture = "images/Mal.jpg";
+const profilePicture = "images/Malcolm.jpg";
 
 
 
