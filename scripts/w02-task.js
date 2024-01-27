@@ -3,7 +3,7 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-const fullName =" Malcolm Nigel Nkomo";
+const fullName ="Malcolm Nigel Nkomo";
 const currentYear = new Date().getFullYear();
 const profilePicture = "images/Malcolm.jpg";
 
