@@ -86,10 +86,10 @@ let herArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
 document.querySelector("#sumOfArray").innerHTML = numbersArray.reduce((sum, number) => sum + number);
 
 /* Output Multiplied; by 2 Array */
-let HisArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+let hisArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
 document.querySelector("#multiplied").innerHTML = numbersArray.map(number => number * 2);
 
 /* Output Sum of Multiplied by 2 Array */
 let theArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
-document.querySelector("#sumOfMultiplied").innerHTML = numbersArray.reduce((sum, number) => sum + number *2);
+document.querySelector("#sumOfMultiplied").innerHTML = numbersArray.reduce((sum, number) => sum + number )*2 ;
 
