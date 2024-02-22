@@ -105,6 +105,6 @@ const deleteButton = document.getElementById("deleteButton");
  }
  function saveToLocalStorage() {
                     localStorage.setItem("todo", JSON.stringify(todo));
- }
+ };
 
 
